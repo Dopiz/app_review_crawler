@@ -1,0 +1,10 @@
+beautifulsoup4
+certifi
+Flask
+requests
+slackclient
+urllib3
+websocket-client
+gspread
+oauth2client
+jwt
