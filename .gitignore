@@ -1,8 +1,4 @@
-bin/
-include/
-lib/
-pyvenv.cfg
-
+history/*.json
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
