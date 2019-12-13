@@ -24,8 +24,8 @@ class ReviewCrawler(object):
         elif platform == "Slack":
             bot = SlackBot(token)
 
-        if bot.notify(channel, self.new_reviews, self.store):
-            self.history.save()
+        bot.notify(channel, self.new_reviews, self.store)
+        self.history.save()
 
     def crawling(self, store):
 
